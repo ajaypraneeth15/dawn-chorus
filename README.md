@@ -1,6 +1,6 @@
 # Dawn Chorus – Open Source Birdsong & Audio Analyzer
 
-An offline bird-call identifier that exists to get you **off the screen**.
+An offline bird-call identifier that exists to get you **off the screen**. 
 
 You print a bingo card of the birds likely where you are *this week*, go stand outside with
 your phone in your pocket, record a few minutes of what you hear, and check your ears against
