@@ -1,0 +1,9 @@
+# Inference runtime (Google's open-source TFLite runtime, Python 3.9-3.13 wheels)
+numpy
+ai-edge-litert
+
+# The BirdNET weights ship inside this wheel. Install it WITHOUT dependencies:
+# we only read its model files and never import it, so librosa/matplotlib are not needed.
+#   pip install --no-deps birdnetlib
+#
+# System: ffmpeg (decodes m4a/mp3/ogg/wav voice memos)

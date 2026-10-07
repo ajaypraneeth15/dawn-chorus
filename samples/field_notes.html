@@ -1,0 +1,54 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Field notes</title>
+<style>
+:root{--paper:#f6f1e4;--ink:#23301f;--moss:#4d6b3c;--leaf:#8aa66b;--rust:#b4572b;--line:#cfc7ad}
+*{box-sizing:border-box}
+body{margin:0;background:#e9e3d0;color:var(--ink);font:16px/1.45 Georgia,'Iowan Old Style',serif}
+.sheet{max-width:880px;margin:24px auto;background:var(--paper);padding:34px 38px;border:1px solid var(--line);
+  box-shadow:0 2px 14px rgba(40,50,30,.18)}
+h1{margin:0;font-size:34px;letter-spacing:.01em;color:var(--moss)}
+.sub{margin:4px 0 18px;color:#5b6650;font-size:14px}
+.sub b{color:var(--ink)}
+footer{margin-top:22px;padding-top:10px;border-top:1px solid var(--line);font-size:11.5px;color:#6a735e}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:2px solid var(--moss)}
+.cell{min-height:118px;padding:9px 9px 7px;border:1px solid var(--line);display:flex;flex-direction:column;position:relative}
+.cell .box{width:16px;height:16px;border:2px solid var(--moss);border-radius:50%;position:absolute;top:8px;right:8px}
+.cell b{font-size:15px;line-height:1.15;padding-right:22px;margin-top:2px}
+.cell i{font-size:11.5px;color:#68725c;margin-top:3px}
+.cell .dots{margin-top:auto;font-size:10.5px;color:var(--rust);letter-spacing:.08em}
+.cell .dots span{color:#7a8470;letter-spacing:0;margin-left:4px}
+.cell.free{background:repeating-linear-gradient(45deg,#ece6d2,#ece6d2 8px,#f1ecdb 8px,#f1ecdb 16px);
+  align-items:center;justify-content:center;text-align:center;font-style:italic;color:var(--moss)}
+.cell.free b{padding:0;font-size:14px}
+.cell.known{background:#eef0e0}
+.legend{margin:12px 0 0;font-size:12.5px;color:#5b6650}
+.legend .d{color:var(--rust);letter-spacing:.08em}
+.rules{margin:14px 0 0;font-size:13.5px}
+.fields{display:flex;gap:18px;margin:14px 0 4px;font-size:13px;color:#5b6650}
+.fields span{flex:1;border-bottom:1px solid var(--ink);padding-bottom:16px}
+.stats{display:flex;gap:26px;margin:2px 0 20px}
+.stats div{font-size:13px;color:#5b6650}
+.stats strong{display:block;font-size:30px;line-height:1;color:var(--moss)}
+.bird{padding:13px 0;border-top:1px solid var(--line)}
+.bird h2{margin:0;font-size:19px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.bird h2 i{font-size:13px;font-weight:normal;color:#68725c}
+.new{font:700 10.5px/1 Helvetica,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;background:var(--rust);
+  color:#fff;padding:4px 7px;border-radius:3px}
+.meter{height:7px;background:#e3dcc4;border-radius:4px;margin:7px 0 4px;max-width:340px}
+.meter u{display:block;height:100%;background:var(--moss);border-radius:4px}
+.meta{font-size:12.5px;color:#5b6650}
+.tl{position:relative;height:12px;background:#e7e0c8;border-radius:3px;margin-top:7px}
+.tl s{position:absolute;top:0;width:3px;height:12px;background:var(--rust);border-radius:1px;text-decoration:none}
+.note{margin:18px 0 0;padding:10px 12px;background:#ece6d2;border-left:3px solid var(--leaf);font-size:13px}
+@media print{body{background:none}.sheet{box-shadow:none;border:none;margin:0;padding:0;max-width:none}
+  .cell{break-inside:avoid}.bird{break-inside:avoid}@page{margin:14mm}}
+@media (max-width:640px){.sheet{padding:18px;margin:0}.cell{min-height:96px}.cell b{font-size:13px}}
+</style></head><body><div class="sheet">
+<h1>Field notes</h1>
+<p class="sub"><b>42.45, -76.50</b> · Tuesday, October 6, 2026 · <code>soundscape.wav</code></p>
+<div class="stats"><div><strong>3</strong>species</div><div><strong>3</strong>new for your life list</div>
+<div><strong>2.0</strong>minutes listened</div></div>
+<div class="bird"><h2>Black-capped Chickadee <i>Poecile atricapillus</i> <span class="new">New for your life list</span></h2><div class="meter"><u style="width:81%"></u></div><div class="meta">best confidence 81% · 1 window · likely here this week<br>heard at 0:00</div><div class="tl"><s style="left:0.00%" title="0:00 · 81%"></s></div></div><div class="bird"><h2>Dark-eyed Junco <i>Junco hyemalis</i> <span class="new">New for your life list</span></h2><div class="meter"><u style="width:74%"></u></div><div class="meta">best confidence 74% · 2 windows · possible here this week<br>heard at 0:42, 1:00</div><div class="tl"><s style="left:35.00%" title="0:42 · 74%"></s><s style="left:50.00%" title="1:00 · 55%"></s></div></div><div class="bird"><h2>House Finch <i>Haemorhous mexicanus</i> <span class="new">New for your life list</span></h2><div class="meter"><u style="width:64%"></u></div><div class="meta">best confidence 64% · 3 windows · possible here this week<br>heard at 0:09, 0:54, 1:12</div><div class="tl"><s style="left:7.50%" title="0:09 · 64%"></s><s style="left:45.00%" title="0:54 · 61%"></s><s style="left:60.00%" title="1:12 · 56%"></s></div></div>
+<p class="note">BirdNET is a strong listener, not an infallible one. Anything you are keeping, confirm by ear or by
+eye. Detections were kept at confidence ≥ 50% across 40 three-second windows.</p>
+<footer>Everything in this file was computed on your own machine. Kahl, Wood, Eibl &amp; Klinck (2021). BirdNET: A deep learning solution for avian diversity monitoring. <i>Ecological Informatics</i> 61, 101236. Model weights: CC BY-NC-SA 4.0.</footer></div></body></html>

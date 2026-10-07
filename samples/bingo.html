@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1"><title>Dawn Chorus bingo</title>
+<style>
+:root{--paper:#f6f1e4;--ink:#23301f;--moss:#4d6b3c;--leaf:#8aa66b;--rust:#b4572b;--line:#cfc7ad}
+*{box-sizing:border-box}
+body{margin:0;background:#e9e3d0;color:var(--ink);font:16px/1.45 Georgia,'Iowan Old Style',serif}
+.sheet{max-width:880px;margin:24px auto;background:var(--paper);padding:34px 38px;border:1px solid var(--line);
+  box-shadow:0 2px 14px rgba(40,50,30,.18)}
+h1{margin:0;font-size:34px;letter-spacing:.01em;color:var(--moss)}
+.sub{margin:4px 0 18px;color:#5b6650;font-size:14px}
+.sub b{color:var(--ink)}
+footer{margin-top:22px;padding-top:10px;border-top:1px solid var(--line);font-size:11.5px;color:#6a735e}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:0;border:2px solid var(--moss)}
+.cell{min-height:118px;padding:9px 9px 7px;border:1px solid var(--line);display:flex;flex-direction:column;position:relative}
+.cell .box{width:16px;height:16px;border:2px solid var(--moss);border-radius:50%;position:absolute;top:8px;right:8px}
+.cell b{font-size:15px;line-height:1.15;padding-right:22px;margin-top:2px}
+.cell i{font-size:11.5px;color:#68725c;margin-top:3px}
+.cell .dots{margin-top:auto;font-size:10.5px;color:var(--rust);letter-spacing:.08em}
+.cell .dots span{color:#7a8470;letter-spacing:0;margin-left:4px}
+.cell.free{background:repeating-linear-gradient(45deg,#ece6d2,#ece6d2 8px,#f1ecdb 8px,#f1ecdb 16px);
+  align-items:center;justify-content:center;text-align:center;font-style:italic;color:var(--moss)}
+.cell.free b{padding:0;font-size:14px}
+.cell.known{background:#eef0e0}
+.legend{margin:12px 0 0;font-size:12.5px;color:#5b6650}
+.legend .d{color:var(--rust);letter-spacing:.08em}
+.rules{margin:14px 0 0;font-size:13.5px}
+.fields{display:flex;gap:18px;margin:14px 0 4px;font-size:13px;color:#5b6650}
+.fields span{flex:1;border-bottom:1px solid var(--ink);padding-bottom:16px}
+.stats{display:flex;gap:26px;margin:2px 0 20px}
+.stats div{font-size:13px;color:#5b6650}
+.stats strong{display:block;font-size:30px;line-height:1;color:var(--moss)}
+.bird{padding:13px 0;border-top:1px solid var(--line)}
+.bird h2{margin:0;font-size:19px;display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.bird h2 i{font-size:13px;font-weight:normal;color:#68725c}
+.new{font:700 10.5px/1 Helvetica,Arial,sans-serif;letter-spacing:.08em;text-transform:uppercase;background:var(--rust);
+  color:#fff;padding:4px 7px;border-radius:3px}
+.meter{height:7px;background:#e3dcc4;border-radius:4px;margin:7px 0 4px;max-width:340px}
+.meter u{display:block;height:100%;background:var(--moss);border-radius:4px}
+.meta{font-size:12.5px;color:#5b6650}
+.tl{position:relative;height:12px;background:#e7e0c8;border-radius:3px;margin-top:7px}
+.tl s{position:absolute;top:0;width:3px;height:12px;background:var(--rust);border-radius:1px;text-decoration:none}
+.note{margin:18px 0 0;padding:10px 12px;background:#ece6d2;border-left:3px solid var(--leaf);font-size:13px}
+@media print{body{background:none}.sheet{box-shadow:none;border:none;margin:0;padding:0;max-width:none}
+  .cell{break-inside:avoid}.bird{break-inside:avoid}@page{margin:14mm}}
+@media (max-width:640px){.sheet{padding:18px;margin:0}.cell{min-height:96px}.cell b{font-size:13px}}
+</style></head><body><div class="sheet">
+<h1>Dawn Chorus Bingo</h1>
+<p class="sub"><b>offline test</b> · week of October 6, 2026 · 75 species plausible here right now</p>
+<div class="grid"><div class="cell"><span class="box"></span><b>Ruby-crowned Kinglet</b><i>Corthylio calendula</i><div class="dots">●●○<span>possible</span></div></div><div class="cell"><span class="box"></span><b>Carolina Wren</b><i>Thryothorus ludovicianus</i><div class="dots">●●○<span>possible</span></div></div><div class="cell"><span class="box"></span><b>Red-breasted Nuthatch</b><i>Sitta canadensis</i><div class="dots">●●○<span>possible</span></div></div><div class="cell"><span class="box"></span><b>House Sparrow</b><i>Passer domesticus</i><div class="dots">●●○<span>possible</span></div></div><div class="cell"><span class="box"></span><b>Blackpoll Warbler</b><i>Setophaga striata</i><div class="dots">●○○<span>lucky find</span></div></div><div class="cell"><span class="box"></span><b>Northern Cardinal</b><i>Cardinalis cardinalis</i><div class="dots">●●●<span>likely</span></div></div><div class="cell"><span class="box"></span><b>Turkey Vulture</b><i>Cathartes aura</i><div class="dots">●●●<span>likely</span></div></div><div class="cell"><span class="box"></span><b>Yellow-bellied Sapsucker</b><i>Sphyrapicus varius</i><div class="dots">●●○<span>possible</span></div></div><div class="cell"><span class="box"></span><b>Common Yellowthroat</b><i>Geothlypis trichas</i><div class="dots">●●○<span>possible</span></div></div><div class="cell"><span class="box"></span><b>Herring Gull</b><i>Larus argentatus</i><div class="dots">●○○<span>lucky find</span></div></div><div class="cell"><span class="box"></span><b>Blue Jay</b><i>Cyanocitta cristata</i><div class="dots">●●●<span>likely</span></div></div><div class="cell"><span class="box"></span><b>Rock Pigeon</b><i>Columba livia</i><div class="dots">●●○<span>possible</span></div></div><div class="cell free"><b>Free square: any bird that surprises you</b></div><div class="cell"><span class="box"></span><b>White-breasted Nuthatch</b><i>Sitta carolinensis</i><div class="dots">●●●<span>likely</span></div></div><div class="cell"><span class="box"></span><b>Palm Warbler</b><i>Setophaga palmarum</i><div class="dots">●●○<span>possible</span></div></div><div class="cell"><span class="box"></span><b>Chipping Sparrow</b><i>Spizella passerina</i><div class="dots">●●○<span>possible</span></div></div><div class="cell"><span class="box"></span><b>Tree Swallow</b><i>Tachycineta bicolor</i><div class="dots">●○○<span>lucky find</span></div></div><div class="cell"><span class="box"></span><b>Downy Woodpecker</b><i>Dryobates pubescens</i><div class="dots">●●●<span>likely</span></div></div><div class="cell"><span class="box"></span><b>Canada Goose</b><i>Branta canadensis</i><div class="dots">●●●<span>likely</span></div></div><div class="cell"><span class="box"></span><b>American Goldfinch</b><i>Spinus tristis</i><div class="dots">●●●<span>likely</span></div></div><div class="cell"><span class="box"></span><b>Great Blue Heron</b><i>Ardea herodias</i><div class="dots">●●○<span>possible</span></div></div><div class="cell"><span class="box"></span><b>Golden-crowned Kinglet</b><i>Regulus satrapa</i><div class="dots">●●○<span>possible</span></div></div><div class="cell"><span class="box"></span><b>American Crow</b><i>Corvus brachyrhynchos</i><div class="dots">●●●<span>likely</span></div></div><div class="cell"><span class="box"></span><b>Common Grackle</b><i>Quiscalus quiscula</i><div class="dots">●●○<span>possible</span></div></div><div class="cell"><span class="box"></span><b>Northern Flicker</b><i>Colaptes auratus</i><div class="dots">●●●<span>likely</span></div></div></div>
+<p class="legend"><span class="d">●●●</span> likely &nbsp; <span class="d">●●○</span> possible &nbsp;
+<span class="d">●○○</span> lucky find &nbsp;·&nbsp; shaded squares are birds already on your life list</p>
+<div class="fields"><span>Date &amp; time</span><span>Where I stood</span><span>Weather</span></div>
+<p class="rules">Print this, switch your phone to airplane mode, and go stand somewhere green for twenty minutes.
+Tick a square when you hear or see the bird. Record a voice memo while you listen and run
+<code>dawn_chorus.py listen</code> at home to check your ears against the model.</p>
+<footer>Made offline by Dawn Chorus with the BirdNET location model. Likelihoods are model estimates for this
+place and week, not guarantees. Kahl, Wood, Eibl &amp; Klinck (2021). BirdNET: A deep learning solution for avian diversity monitoring. <i>Ecological Informatics</i> 61, 101236. Model weights: CC BY-NC-SA 4.0.</footer></div></body></html>
